@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "dataset": "p1-reference-local-v1",
+  "training_allowed": false,
+  "records": [
+    {
+      "id": "person-01-source",
+      "path": "person-01-source.png",
+      "category": "person",
+      "modality": "source",
+      "source_kind": "grayscale",
+      "style": "illustration",
+      "tone_range": "high",
+      "rights_status": "local-user-provided"
+    },
+    {
+      "id": "person-01-lineart",
+      "path": "person-01-lineart.png",
+      "category": "person",
+      "modality": "lineart",
+      "source_kind": "lineart",
+      "style": "lineart",
+      "tone_range": "low",
+      "rights_status": "local-user-provided"
+    },
+    {
+      "id": "background-01-source",
+      "path": "background-01-source.png",
+      "category": "background",
+      "modality": "source",
+      "source_kind": "grayscale",
+      "style": "illustration",
+      "tone_range": "high",
+      "rights_status": "local-user-provided"
+    },
+    {
+      "id": "background-01-lineart",
+      "path": "background-01-lineart.png",
+      "category": "background",
+      "modality": "lineart",
+      "source_kind": "lineart",
+      "style": "lineart",
+      "tone_range": "low",
+      "rights_status": "local-user-provided"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+-r requirements.txt
+onnx==1.22.0
+pyinstaller==6.16.0
+pytest==9.1.1

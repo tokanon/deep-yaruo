@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "person-01-source",
+      "kind": "person",
+      "source": "../samples/person-01-source.png",
+      "options": {
+        "columns": 80,
+        "detail": 72,
+        "abstraction": 40,
+        "threshold_low": 55,
+        "threshold_high": 150,
+        "min_component": 10,
+        "max_rows": 58,
+        "crop_x": 0.2,
+        "crop_y": 0.015,
+        "crop_width": 0.64,
+        "crop_height": 0.61,
+        "profile": "person"
+      }
+    },
+    {
+      "id": "background-01-source",
+      "kind": "background",
+      "source": "../samples/background-01-source.png",
+      "options": {
+        "columns": 120,
+        "detail": 58,
+        "abstraction": 15,
+        "threshold_low": 65,
+        "threshold_high": 170,
+        "min_component": 14,
+        "max_rows": 60,
+        "crop_x": 0.0,
+        "crop_y": 0.0,
+        "crop_width": 1.0,
+        "crop_height": 1.0,
+        "profile": "background"
+      }
+    },
+    {
+      "id": "person-01-lineart",
+      "kind": "person-lineart",
+      "source": "../samples/person-01-lineart.png",
+      "options": {
+        "columns": 80,
+        "detail": 72,
+        "abstraction": 35,
+        "threshold_low": 55,
+        "threshold_high": 150,
+        "min_component": 10,
+        "max_rows": 58,
+        "crop_x": 0.0,
+        "crop_y": 0.0,
+        "crop_width": 1.0,
+        "crop_height": 1.0,
+        "profile": "lineart"
+      }
+    },
+    {
+      "id": "background-01-lineart",
+      "kind": "background-lineart",
+      "source": "../samples/background-01-lineart.png",
+      "options": {
+        "columns": 120,
+        "detail": 58,
+        "abstraction": 35,
+        "threshold_low": 65,
+        "threshold_high": 170,
+        "min_component": 10,
+        "max_rows": 30,
+        "crop_x": 0.0,
+        "crop_y": 0.0,
+        "crop_width": 1.0,
+        "crop_height": 1.0,
+        "profile": "background_lineart"
+      }
+    }
+  ]
+}
